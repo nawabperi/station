@@ -1,4 +1,4 @@
-package com.example.myBatis.myBatisTest;
+package com.example.myBatis.myBatisTest.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.myBatis.myBatisTest.Repo.StationMyBatisRepository;
+import com.example.myBatis.myBatisTest.model.Station;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

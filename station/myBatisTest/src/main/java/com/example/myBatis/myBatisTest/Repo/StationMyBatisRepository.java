@@ -1,4 +1,4 @@
-package com.example.myBatis.myBatisTest;
+package com.example.myBatis.myBatisTest.Repo;
 
 import java.util.List;
 
@@ -8,7 +8,9 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.example.myBatis.myBatisTest.Station;
+import com.example.myBatis.myBatisTest.model.Station;
+
+
 @Mapper
 public interface StationMyBatisRepository {
 	@Select("select * from station")

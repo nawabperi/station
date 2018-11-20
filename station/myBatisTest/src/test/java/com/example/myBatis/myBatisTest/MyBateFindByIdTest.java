@@ -22,6 +22,9 @@ import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilde
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import com.example.myBatis.myBatisTest.Repo.StationMyBatisRepository;
+import com.example.myBatis.myBatisTest.model.Station;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MyBateFindByIdTest {

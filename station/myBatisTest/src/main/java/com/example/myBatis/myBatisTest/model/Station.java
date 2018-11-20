@@ -1,4 +1,4 @@
-package com.example.myBatis.myBatisTest;
+package com.example.myBatis.myBatisTest.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 
